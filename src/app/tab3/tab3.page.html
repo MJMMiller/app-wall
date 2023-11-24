@@ -1,0 +1,145 @@
+<ion-content [fullscreen]="true">
+    
+  <ion-menu contentId="main-content" >
+
+    <ion-header id="ion-header-1">
+      <ion-toolbar>
+        <ion-label>MENU</ion-label>
+        <ion-menu-toggle>X</ion-menu-toggle>
+      </ion-toolbar>
+    </ion-header>
+
+    <ion-card id="card2">
+      <ion-toggle [enableOnOffLabels]="true">Enable Notifications</ion-toggle>
+
+      <ion-checkbox>Goods this App ?</ion-checkbox>
+
+      <ion-datetime locale="en-GB-u-hc-h12"></ion-datetime>
+
+    </ion-card>
+
+      <ion-reorder-group [disabled]="false" (ionItemReorder)="handleReorder($any($event))">
+        <ion-item>
+          <ion-label> MESSI </ion-label>
+          <ion-reorder slot="end">
+            <ion-icon name="flame"></ion-icon>
+          </ion-reorder>
+        </ion-item>
+    
+        <ion-item>
+          <ion-label> MARADONA </ion-label>
+          <ion-reorder slot="end">
+            <ion-icon name="color-palette"></ion-icon>
+          </ion-reorder>
+        </ion-item>
+    
+        <ion-item>
+          <ion-label> CR7 </ion-label>
+          <ion-reorder slot="end">
+            <ion-icon name="bug"></ion-icon>
+          </ion-reorder>
+        </ion-item>
+    
+        <ion-item>
+          <ion-label> RONALDINHO </ion-label>
+          <ion-reorder slot="end">
+            <ion-icon name="color-palette"></ion-icon>
+          </ion-reorder>
+        </ion-item>
+    
+        <ion-item>
+          <ion-label> PELE </ion-label>
+          <ion-reorder slot="end">
+            <ion-icon name="moon"></ion-icon>
+          </ion-reorder>
+        </ion-item>
+      </ion-reorder-group>
+
+    <ion-label></ion-label>
+
+  </ion-menu>
+
+  <ion-grid>
+
+  <ion-row>
+
+    <div id="main-content">
+      <ion-menu-toggle>
+        <ion-icon name="menu"></ion-icon>
+      </ion-menu-toggle>
+    </div>
+    
+    <ion-label id="ion-col-row-grid-text">Profile</ion-label>
+    
+    <a href="https://bitcoin.org/es/">
+      <ion-button fill="clear" id="ion-button-not">
+        <ion-icon name="notifications"></ion-icon>
+        <ion-badge color="danger">5</ion-badge>
+      </ion-button>
+    </a>
+
+  </ion-row>
+
+  </ion-grid>
+
+  <ion-card>
+
+    <img alt="Profile" src="https://static.vecteezy.com/system/resources/previews/021/375/941/original/bank-icon-for-your-website-design-logo-app-ui-free-vector.jpg" />
+    
+
+    <ion-card-header>
+
+      <ion-list>
+        <ion-item>
+          <ion-input label="USER NAME : " placeholder="Enter text"></ion-input>
+        </ion-item>
+        <ion-item>
+          <ion-input label="PASSWORD :" type="password" value="password"></ion-input>
+        </ion-item>
+        <div class="ion-padding-start">
+          <ion-input label="ID_USER:" [counter]="true" maxlength="10"></ion-input>
+        </div>
+      </ion-list>
+      
+    </ion-card-header>
+
+    <ion-button id="present-alert">Send</ion-button>
+    <ion-alert trigger="present-alert" class="custom-alert" header="Are you sure?" [buttons]="alertButtons"></ion-alert>
+
+    <br>
+
+    <ion-item id="item-2">
+      <ion-select justify="space-between" label="Age" placeholder="">
+        <ion-select-option value="apple">18 - 25</ion-select-option>
+        <ion-select-option value="banana">25 - 45</ion-select-option>
+        <ion-select-option value="orange">45 +</ion-select-option>
+      </ion-select>
+    </ion-item>
+    <ion-item>
+      <ion-select justify="space-between" label="City" placeholder="">
+        <ion-select-option value="apple">Azuay</ion-select-option>
+        <ion-select-option value="banana">Guayas</ion-select-option>
+        <ion-select-option value="orange">Pichincha</ion-select-option>
+      </ion-select>
+    </ion-item>
+    <ion-item>
+      <ion-select justify="space-between" label="Gender" placeholder="">
+        <ion-select-option value="apple">Masculine</ion-select-option>
+        <ion-select-option value="banana">Feminine</ion-select-option>
+        <ion-select-option value="orange">Non - Binary</ion-select-option>
+      </ion-select>
+    </ion-item>
+
+    <div class="container">
+      <ion-button id="open-toast" expand="block">Save Info</ion-button>
+      <ion-toast trigger="open-toast" message="Thanks for yours answers" [duration]="5000"></ion-toast>
+
+    </div>
+
+    <div id="imgs">
+      <img src="https://yt3.ggpht.com/AnbuQZniahVhHdF_X-SvCDNHn9ClGef1JfZJ1m11h-vJdf5A26fx6CJSg33gfwNFsA1ac7-Pq7s52A=s640-nd-v1" alt="xd">
+    </div>
+
+  </ion-card>
+
+</ion-content>

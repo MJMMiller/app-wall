@@ -1,0 +1,177 @@
+ion-content{
+    --ion-background-color:#FFFF;
+    display: flex;
+}
+ion-grid{
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+ion-col{
+    margin-left: 2rem;
+    margin-right: 2rem;
+    color: black;
+    font-weight: bold;
+}
+#ion-col-row-grid-text{
+    margin-top: 0.5rem;
+    padding-left: 2rem;
+}
+ion-grid ion-button ion-icon{
+    color: white;
+}
+ion-icon{
+    font-size: 2rem;
+    color: black;
+}
+ion-button{
+    margin-top: -0.5rem;
+}
+a ion-button ion-icon{
+    color: black;
+    font-size: 1.75rem;
+}
+a{
+    margin-right: -1rem;
+}
+ion-card{
+    width: 10rem;
+    height: 10rem;
+}
+#container-cards{
+    display: flex;
+    flex-direction: row;
+}
+.outer{
+    overflow: scroll;
+    width: 100%;
+}
+.outer .inner{
+    width: 68rem;
+}
+.outer .inner ion-card{
+    float: left;
+    height: 11rem;
+    color: black;
+}
+.outer .inner ion-card-title{
+    color: black;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+.outer .inner ion-card ion-card-content{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+.outer .inner ion-card ion-card-content ion-icon{
+    margin-top: 0.5rem;
+    margin-right: 1rem;
+    font-size: 2rem;
+}
+.outer ion-label{
+margin-top: 0.5rem;
+}
+#card1-coin{
+    background-color: #E3F6FD;
+}
+#card2-coin{
+    background-color: #E8DCF8;
+}
+#card3-coin{
+    background-color: #F3F3F3;
+}
+#card4-coin{
+    background-color: #E3F6FD;
+}
+#card5-coin{
+    background-color: #E8DCF8;
+}
+#card6-coin{
+    background-color: #F3F3F3;
+}
+.outer1{
+    overflow: scroll;
+    width: 100%;
+    margin-top: 1rem;
+}
+.outer1 .inner1{
+    width: 68rem;
+    margin: 0 0 0 1rem;
+}
+.outer1 .inner1 div{
+    float: left;
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    background-color: transparent;
+}
+.outer1 .inner1 div ion-icon{
+    font-size: 4rem;
+    background-color:#adadad;
+    border-radius: 2rem;
+}
+.inner1-icon{
+margin: 0 2rem 0 0;
+}
+#page{
+    width: 20rem;
+    height: 19rem;
+}
+#page img{
+    height: 10rem;
+    width: 20rem;
+}
+.outer2{
+    overflow: scroll;
+    width: 100%;
+    margin-top: 1rem;
+}
+.outer2 .inner2{
+    width: 65rem;
+    margin: 0 0 0 0rem;
+}
+.outer2 .inner2 #page{
+    float: left;
+}
+#footer{
+    position: relative;
+    color: black;
+    margin-top: 1rem;
+    font-weight: bold;
+    height: 3rem;
+
+}
+#uno{
+    position: absolute;
+    left: 4rem;
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+}
+#dos{
+    position: absolute;
+    bottom: 8px;
+    right: 4rem;
+    font-size: 18px;
+    margin-top:-1rem;
+}
+.name{
+    color: #adadad;
+    font-size: 1rem;
+}
+#tres{
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#tres ion-button{
+    background-color: black;
+    width: 6rem;
+    margin-top: 0.2rem;
+    border-radius: 2rem;
+}
+#tres ion-button ion-icon{
+    color: white;
+}

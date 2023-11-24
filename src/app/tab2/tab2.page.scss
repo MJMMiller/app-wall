@@ -1,0 +1,102 @@
+ion-content{
+    --ion-background-color:#FFFF;
+    display: flex;
+    justify-content: center;
+}
+ion-grid{
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+ion-col{
+    margin-left: 2rem;
+    margin-right: 2rem;
+    color: black;
+    font-weight: bold;
+}
+#ion-col-row-grid-text{
+    margin-top: 0.5rem;
+    padding-left: 2rem;
+}
+ion-grid ion-button ion-icon{
+    color: white;
+}
+ion-icon{
+    font-size: 2rem;
+    color: black;
+}
+ion-button{
+    margin-top: -0.5rem;
+}
+a ion-button ion-icon{
+    color: black;
+    font-size: 1.75rem;
+}
+a{
+    margin-right: -1rem;
+}
+a ion-badge{
+    margin-left: 0.5rem;
+}
+ion-searchbar{
+    width: 80%;
+}
+#search{
+    width: 100%;
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+img{
+    margin-top: 2rem;
+    border-radius: 2rem;
+    height: 10rem;
+    width: 20rem;
+    box-shadow: 0rem 0rem 2rem 0rem rgba(0, 0, 0, 0.418);
+}
+#a-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#content-all{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#content-all .box{
+    margin: 1rem;
+    display: flex;
+    align-items: center;
+}
+#content-all ion-label{
+    color: black;
+    font-size: 1rem;
+}
+#content-all .box ion-icon{
+    font-size: 1.5rem;
+    margin-right: 1rem;
+}
+#heart{
+    color: red;
+}
+#texto{
+    display: flex;
+    align-items: center;
+    margin-top: 1rem;
+    flex-direction: column;
+    text-align: justify;
+    padding: 2rem 2rem 2rem 2rem;
+}
+#titulo{
+    margin-top: -3.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-weight: bold;
+}
+#parrafo p{
+    color: gray;
+}

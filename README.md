@@ -3,4 +3,9 @@
 En esta version corrige errores..
 ```
 ionic AppWall
-```"# app-wall" 
+```
+"# app-wall" 
+
+### v.1.2 - App
+En esta version corrige MASerrores..
+
